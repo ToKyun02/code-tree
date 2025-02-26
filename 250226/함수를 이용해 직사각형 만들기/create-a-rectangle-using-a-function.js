@@ -13,3 +13,4 @@ function print(n,m){
         console.log(tmp);
     }
 }
+print(n,m);
