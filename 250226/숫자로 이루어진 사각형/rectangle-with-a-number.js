@@ -11,4 +11,8 @@ function print(n){
         console.log(tmp);
     }
 }
-print(4);
+
+const fs = require('fs').readFileSync(0).toString().trim();
+
+print(Number(fs));
+
