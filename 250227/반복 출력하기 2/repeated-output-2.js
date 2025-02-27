@@ -10,3 +10,5 @@ function print(n){
     console.log('HelloWorld');
     print(n-1);
 }
+
+print(n);
