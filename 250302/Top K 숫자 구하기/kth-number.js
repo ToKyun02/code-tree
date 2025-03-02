@@ -5,4 +5,4 @@ const nums = input[1].trim().split(' ').map(Number);
 
 // Please Write your code here.
 
-console.log(nums.sort((a,b)=>a-b)[k]);
+console.log(nums.sort((a,b)=>a-b)[k-1]);
