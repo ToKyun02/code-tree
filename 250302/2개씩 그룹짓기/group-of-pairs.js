@@ -15,6 +15,7 @@ function getGroupMaxOfMin(nums){
             groupMax=groupSum
         }
     }
+    return groupMax;
 }
 
 console.log(getGroupMaxOfMin(nums));
