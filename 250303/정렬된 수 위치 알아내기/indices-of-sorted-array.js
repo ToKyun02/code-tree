@@ -36,4 +36,4 @@ arr.forEach((num,i)=>{
     }
 })
 
-console.log(result);
+console.log(result.join(' '));
