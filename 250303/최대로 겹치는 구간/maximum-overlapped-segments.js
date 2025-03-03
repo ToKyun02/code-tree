@@ -11,8 +11,8 @@ for (let i = 1; i <= n; i++) {
 const overlayList = new Array(201).fill(0);
 
 segments.forEach((segment)=>{
-    const startPoint = segment[0] > 0 ? segment[0] : Math.abs(segment[0]) + 100;
-    const endPoint = segment[1] > 0 ? segment[1] : Math.abs(segment[1]) + 100;
+    const startPoint = segment[0] + 100;
+    const endPoint = segment[1] + 100;
 
     for(let i=Math.min(startPoint,endPoint); i<Math.max(startPoint,endPoint); i++){
         overlayList[i]++;
