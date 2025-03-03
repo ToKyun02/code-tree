@@ -7,7 +7,7 @@ const segments = input.slice(1, k + 1).map(line => line.split(' ').map(Number));
 const fills = new Array(n).fill(0);
 
 segments.forEach((segment)=>{
-    for(let i=segment[0]; i<=segment[1]; i++){
+    for(let i=segment[0]-1; i<=segment[1]-1; i++){
         fills[i]++;
     }
 })
