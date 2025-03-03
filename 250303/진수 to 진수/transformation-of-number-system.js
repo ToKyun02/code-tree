@@ -18,5 +18,4 @@ function decToBase(n,base){
     return decToBase(Math.floor(n/base),base) + n%base + '';
 }
 
-console.log(baseToDec('1010',2));
-console.log(decToBase(10,2));
+console.log(decToBase(baseToDec(n,a),b));
