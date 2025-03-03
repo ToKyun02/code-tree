@@ -17,7 +17,7 @@ students.sort((a,b)=>{
 })
 
 console.log('name');
-console.log(students.map((student)=>`${student.name} ${student.height} ${student.weight}`).join('\n'));
+console.log(students.map((student)=>`${student.name} ${student.height} ${student.weight.toFixed(1)}`).join('\n'));
 
 students.sort((a,b)=>{
   const aW = Number(a.height);
@@ -27,4 +27,4 @@ students.sort((a,b)=>{
 
 console.log();
 console.log('height');
-console.log(students.map((student)=>`${student.name} ${student.height} ${student.weight}`).join('\n'));
+console.log(students.map((student)=>`${student.name} ${student.height} ${student.weight.toFixed(1)}`).join('\n'));
