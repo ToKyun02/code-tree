@@ -31,6 +31,6 @@ function heap_sort(arr,n){
     }
 }
 
-heap_sort(arr,n-1);
+heap_sort(arr,n);
 
 console.log(arr.slice(1).join(' '));
